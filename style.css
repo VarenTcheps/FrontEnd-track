@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  height: 90vh; /* prend toute la hauteur de l'écran */
+}
+
+.left, .right {
+  flex: 1; /* chaque zone prend 50% */
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+}
+
+.right {
+  background-color: rgb(163, 190, 202);
+  color: rgb(59, 104, 141);
+  border-radius: 23px;
+}
+
+.left {
+  border-radius: 23px;
+}
+
+body{
+    margin: 30px;
+}
+
+div{
+    margin: 10px;
+}
+.right p{
+  color: rgb(53, 76, 95);
+}
+
+.left img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%
+}
+
+.description{
+    font-size: 30px;
+    font-family: fantasy;
+    text-align: left;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+figure{
+    position: relative;
+    top: 90px;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 40px;
+}
