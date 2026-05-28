@@ -1,0 +1,34 @@
+body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .calculator {
+            background: gray;
+            border: 1px solid;
+            padding: 20px;
+        }
+
+        #display {
+            width: 100%;
+            height: 50px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-align: center;
+            padding-right: 10px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 60px);
+            gap: 10px;
+        }
+
+        button {
+            height: 50px;
+            font-size: 18px;
+            cursor: pointer;
+        }
